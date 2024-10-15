@@ -1,0 +1,5 @@
+{
+  "method": "DELETE",
+  "path": "v2/pet/{petId}",
+  "petId": 1
+}

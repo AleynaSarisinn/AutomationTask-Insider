@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Insider Tests">
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="insider.tests.InsiderCareersPageTests"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="insider.tests.InsiderCareersPageTests"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="insider.utils.CustomTestListener"/>
+    </listeners>
+</suite>

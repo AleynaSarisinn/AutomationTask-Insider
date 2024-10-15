@@ -1,0 +1,17 @@
+{
+  "method": "PUT",
+  "path": "v2/pet",
+  "payload": {
+    "id": 1,
+    "name": "Buddy Updated",
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "photoUrls": [
+      "http://example.com/photo_updated.jpg"
+    ],
+    "tags": [],
+    "status": "available"
+  }
+}

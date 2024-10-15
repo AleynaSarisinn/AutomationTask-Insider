@@ -1,0 +1,5 @@
+{
+  "method": "GET",
+  "path": "v2/pet/{petId}",
+  "petId": 132
+}

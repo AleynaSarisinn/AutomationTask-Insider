@@ -1,0 +1,7 @@
+{
+  "method": "GET",
+  "path": "v2/pet/findByStatus?/status={status}",
+  "queryParams": {
+    "status": []
+  }
+}

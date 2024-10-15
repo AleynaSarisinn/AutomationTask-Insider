@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "path": "v2/pet/{petId}",
+  "petId": 1,
+  "name": "Buddy",
+  "status": "available"
+}
